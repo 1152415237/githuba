@@ -44,10 +44,26 @@
         git log
 10、恢复文件到指定的某一个版本
         git reset --hard 版本号
+
+
+提交到远程库
+1-生成id(ssh密匙)  同一个远程仓库 同一个本地工作区 获取一次就好
+        ssh-keygen -t rsa -C "注册的邮箱地址"
+        //地址C:\Users\Administrator\.ssh id_rsa.pub 文件
+
+2-将暂存区=>远程仓库
+        git remote add origin 仓库地址
+git remote add origin https://github.com/1152415237/githuba.git
+        git push -u origin master
+
     -->
     <h1>第一次测试</h1>
     <h1>第三次测试</h1>
     <h1>第三次测试</h1>
     <h1>第三次测试</h1>
+
+    <h1>第四次测试</h1>
+    <h1>第四次测试</h1>
+    <h1>第四次测试</h1>
 </body>
 </html>
